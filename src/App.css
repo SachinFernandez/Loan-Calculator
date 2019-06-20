@@ -1,33 +1,63 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, #DB302A 0%, #62186B 100%) no-repeat;
 }
 
-.App-link {
-  color: #61dafb;
+div {
+  margin: auto;
+  width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-family: "Helvetica Neue", Helvetical, Arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 42px;
+  color: #ffffff;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  box-shadow: 6px 7px 15px #8c26cc, 7px 4px 11px #da2020;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 1px;
+  background: #ff5f22;
+  outline: none;
+  transition: opacity 0.2s;
+  border-radius: 25px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 25px;
+  border-radius: 25px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 25px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.loanText {
+  font-size: 28px;
+  color: #e6a127;
+  font-weight: 700;    
+  font-family: "Titillium Web",
+  sans-serif;
 }
