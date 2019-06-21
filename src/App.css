@@ -5,11 +5,11 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(180deg, #DB302A 0%, #62186B 100%) no-repeat;
+  background: linear-gradient(180deg, #db302a 0%, #62186b 100%) no-repeat;
 }
 
-div {
-  margin: auto;
+.cont {
+  margin: 10%;
   width: 80%;
 }
 
@@ -57,7 +57,16 @@ h1 {
 .loanText {
   font-size: 28px;
   color: #e6a127;
-  font-weight: 700;    
-  font-family: "Titillium Web",
-  sans-serif;
+  font-weight: 700;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.subText {
+  border-bottom: 1px solid #ffffff;
+  width: max-content;
+  display: block;
+  color: #e6a127;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
 }
