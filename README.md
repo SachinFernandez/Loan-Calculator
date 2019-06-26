@@ -1,5 +1,7 @@
-EMI LOAN-CALCULATOR
+# EMI LOAN-CALCULATOR
+
 A demo for the Website App is available [here](https://loan-emi-calculator.herokuapp.com/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
